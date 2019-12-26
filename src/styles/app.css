@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+.app {
+    margin: 3em auto;
+    width: 90%;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.gif-item {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.5em;
+    padding: 1em;
+    width: 100%;
+}
+
+
+input {
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    background-color: #7765E3;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a53b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+@media only screen and (min-width: 1280px) {
+    .app {
+        width: 1140px;
+    }
+}
